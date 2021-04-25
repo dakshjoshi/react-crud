@@ -14,7 +14,7 @@ export const UserList = (props) => {
   };
 
   return (
-    <ListGroup className="col-6" id="UserLists">
+    <ListGroup className="col-12" id="UserLists">
       {users.map((user, i) => (
         <ListGroupItem className="d-flex" key={i}>
           {user.name}
